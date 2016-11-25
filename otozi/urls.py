@@ -20,5 +20,6 @@ from blogs import views as blogs
 
 urlpatterns = [
     url(r'^$', blogs.index),
+    url(r'^eventregistry/$', blogs.eventregistry),
     url(r'^admin/', admin.site.urls),
 ]
